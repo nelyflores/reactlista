@@ -1,14 +1,14 @@
 import React from "react";
 import Precio from "../components/Precio";
-import {Col, CardPanel, Row} from 'react-bootstrap';
+import {  Row} from 'react-bootstrap';
 export default class TarjetasPrecio extends React.Component {
   render() {
     return(
       <Row>
-      <Precio/>
-      <Precio/>
-      <Precio/>
-      <Precio/>
+      <Precio titulo="20" parrafo="New followers added this month"/>
+      <Precio titulo="$1250" parrafo="Average Monthly income"/>
+      <Precio titulo="$13865" parrafo="Yearly income Goal"/>
+      <Precio  estilo={{background:"orange",color:"white"}}    titulo="18°" parrafo="Paris"/>
       </Row>
     );
   }

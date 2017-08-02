@@ -5,9 +5,9 @@ export default class Precio extends React.Component {
   render() {
     return(
       <Col xs={3} md={3}>
-      <Panel>
-      <p>20</p>
-      <p>New followers added this month</p>
+      <Panel style={this.props.estilo}>
+      <p>{this.props.titulo}</p>
+      <p>{this.props.parrafo}</p>
       </Panel>
       </Col>
     )

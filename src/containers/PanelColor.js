@@ -7,12 +7,12 @@ export default class PanelColor extends React.Component {
     return(
       <Row>
       <ColorGrande/>
-      <ColorPeque/>
-        <ColorPeque/>
+      <ColorPeque  estilo={{height: "130px"}} color="primary" titulo="New visitors" parrafo="1.5k"/>
+        <ColorPeque   estilo={{height: "130px"}} color="warning"titulo="Bounce Rate" parrafo="50%"/>
         <Row>
           <ColorGrande/>
-            <ColorPeque/>
-              <ColorPeque/>
+            <ColorPeque  estilo={{height: "130px"}} color="danger" titulo="Search" parrafo="28%"/>
+              <ColorPeque estilo={{height: "130px"}} color="success" titulo="Traffic" parrafo="140.5Kb"/>
 
         </Row>
       </Row>
